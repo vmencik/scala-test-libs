@@ -12,3 +12,5 @@ libraryDependencies ++= Seq (
 )
 
 resolvers += "OSS Sonatype"  at "http://oss.sonatype.org/content/repositories/releases"
+
+javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
